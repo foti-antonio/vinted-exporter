@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+
+# Exports / user content
+vinted_export/
+exports/
+output/
+
+# Browser / local state
+playwright-report/
+test-results/
+*.log
+
+# OS/editor
+.DS_Store
+.idea/
+.vscode/
